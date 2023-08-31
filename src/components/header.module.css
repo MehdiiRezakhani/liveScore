@@ -1,0 +1,25 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1;
+    align-items: center;
+    padding: 0px 8px; 
+    background-color: #fff;
+}
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 16px;
+    align-items: center;
+}
+.searchContainer {
+    width: 90%;
+    direction: rtl;
+    border-radius: 8px;
+    text-align: right;
+}
+.searchInput{
+    background-color: #e6e6e6;
+}

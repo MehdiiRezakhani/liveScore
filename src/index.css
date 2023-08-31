@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "IranSans";
+  src: url("./assets/fonts/IranSans.ttf");
+}
+
+* {
+  font-family: 'IranSans' !important;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.appContainer {
+  background-color: #e6e6e6;
+  padding: 0;
+  margin: 0;
+}
